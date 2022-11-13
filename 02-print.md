@@ -52,6 +52,16 @@ HTML:5
 ```php
 echo "hallo saya belajar PHP";
 ```
+### 5. Menampilkan tulisan ke layar + html tag
+```php
+echo "<h1>Hallo saya sedang belajar PHP </h1>";
+```
+### 6. Menampilkan tulisan ke layar melalui variable
+```php
+$text = "hallo saya belajar PHP";
+echo $text;
+```
+
 ### Source code
 
 ```PHP
@@ -66,6 +76,9 @@ echo "hallo saya belajar PHP";
 <body>
   <?php
    echo "hallo saya belajar PHP";
+   echo "<h1>Hallo saya sedang belajar PHP </h1>";
+   $text = "hallo saya belajar PHP";
+   echo $text;
   ?>
 </body>
 </html>
