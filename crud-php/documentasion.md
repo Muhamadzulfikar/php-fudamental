@@ -20,6 +20,7 @@
 - beri style pada form
 - buat tombol submit dan reset kemudian beri style
 - rename file menjadi index.php
+- jalankan file php menggunakan localhost
 - buat sebuah database dengan nama crud php
 - buat table mahasiswa dengan field nim, nama, prodi
 - lakukan koneksi dari database ke php
