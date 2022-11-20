@@ -74,3 +74,46 @@
 10
 9
 ```
+
+# contoh penerapan matematika dalam PHP
+- menghitung rata-rata
+```php
+<?php
+  $beratMahasiswa = array(40, 45, 50, 55, 52, 56, 70);
+  $rata_rata = 0;
+  
+  foreach($beratMahasiswa as $value){
+    $rata_rata += $beratMahasiswa;
+  }
+  $hasil = $rata_rata / count($beratMahasiswa);
+  echo $hasil;
+?>
+```
+- menentukan bilangan ganjil dan genap
+```php
+<?php
+  $angka =  15;
+  
+  if ($angka % 2 == 0){
+    echo "Bilangan Bulat";
+  } else{
+    echo "Bilangan Ganjil";
+  }
+?>
+```
+- menghitung median
+```php
+<?php
+    $beratMahasiswa = array(40, 45, 50, 55, 52, 56, 70);
+    $n = count($beratMahasiswa);
+    if($n % 2 == 0 ){
+      $position = n / 2;
+      $leftValue = $beratMahsiswa[$position];
+      $beratMahasiswaReverse = array_reverse($beratMahasiswa);
+      $rightValue = $beratMahsiswaReverse[$position];
+      $result = ($leftValue + $rightValue) / 2
+    } else{
+      
+    }
+?>
+```
